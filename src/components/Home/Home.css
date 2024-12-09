@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9ddb1;
+    background-color: #ffffff;
     height: 100vh;
   }
   
@@ -39,10 +39,11 @@
   }
   
   .get-started {
-    background-color: orange;
+    background-color: #1d3bcf;
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 1.5rem;
     margin-top: 20px;

@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5c77e;
+    background-color: #00B4D8;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 80%;
@@ -60,7 +60,8 @@
   }
   
   .login-button {
-    background-color: #d24e01;
+    background-color: #1d3bcf;
+    border-radius: 5px;
     color: white;
     border: none;
     padding: 10px 20px;
