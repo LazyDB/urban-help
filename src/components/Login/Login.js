@@ -1,9 +1,11 @@
 import React from 'react';
 import './Login.css';
+import { useNavigate } from 'react-router-dom';
 import Header from '../Shared/Header';
 import buildingImage from '../../assets/images/assets.jpg';
 
 function Login() {
+  const navigate = useNavigate();
   return (
     <div className="login-container">
       <Header />
@@ -29,7 +31,12 @@ function Login() {
               Login
             </button>
           </form>
+          <span className='login-option-span'>OR</span>
+          <button className="get-started" onClick={() => navigate('/signup')}>
+            Create a New Account
+          </button>
         </div>
+
       </div>
     </div>
   );
