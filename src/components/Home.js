@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css"; 
-import toolsImage from "../assets/assets.jpg"; // Add the house/tools image here
+import toolsImage from "../assets/assets.jpg"; 
 
 const Home = () => {
   const navigate = useNavigate();
